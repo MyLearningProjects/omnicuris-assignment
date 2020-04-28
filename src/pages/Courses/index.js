@@ -1,5 +1,13 @@
-import React, { Component } from 'react';
-import ApiService from "../../api/api.Service";
+import React, { 
+    Component 
+}                   from 'react';
+import {
+    Row,
+    Col
+}                   from "reactstrap";
+import ApiService   from "../../api/api.Service";
+import Layout       from "../../commons/Components/Layout";
+
 
 export default class Courses extends Component {
 
@@ -19,9 +27,13 @@ export default class Courses extends Component {
 
     render() {
         return (
-            <div>
-                <h5>asdfghjk</h5>
-            </div>
+            <Layout>
+                <Row>
+                    <Col>
+                        <h5>Welcome To Courses</h5>
+                    </Col>
+                </Row>
+            </Layout>
         )
     }
 }

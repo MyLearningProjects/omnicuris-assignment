@@ -1,12 +1,13 @@
 import React from 'react';
-import Courses from "./pages/Courses"
+import { BrowserRouter as Router } from 'react-router-dom';
+import Routes from "./commons/Components/Routes";
 
 function App() {
-  console.log(process.env)
   return (
       <div id="omnicuris-app">
-          <h5 className="primary">React App</h5>
-          <Courses/>
+          <Router>
+							<Routes />
+					</Router>
       </div>
   );
 }
