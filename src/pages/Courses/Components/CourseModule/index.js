@@ -12,7 +12,6 @@ export default function CourseModules({
     chapterDetails,
     updateState
 }) {
-    debugger
     return (
         <Col xs="12" md="4">
             <div className="infoCard modules-info">

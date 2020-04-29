@@ -32,7 +32,6 @@ export default function SingleModule ({
                     <Collapse isOpen={showPreview}>
                         {
                             chapterInfo && chapterInfo.userChapterDetails.map((chapter,index) => {
-                                debugger
                                 return (
                                     <div 
                                         className="infoCard link" 

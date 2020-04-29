@@ -2,7 +2,6 @@ import React, {
     useState
 }                   from 'react'
 import {
-    Row,
     Col
 }                   from "reactstrap";
 import ReactPlayer  from 'react-player';
