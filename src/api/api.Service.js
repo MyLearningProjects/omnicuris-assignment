@@ -14,8 +14,22 @@ class Api extends BaseApi {
 			console.log(error);
 			throw error;
 		}
-    };
-    
+	};
+	
+	getExperts = async (queryParams = {}) => {
+		const endPoint = API_ROUTES.EXPERTS;
+        const url = this.makeUrl(endPoint);
+        const headers = this.getHeaders();
+		try {
+			const { data } = await this.makeRequest( queryParams,url,"GET",headers);
+			return data;
+		} catch (error) {
+			console.log(error);
+			throw error;
+		}
+	}
+
+	
 }
 
 

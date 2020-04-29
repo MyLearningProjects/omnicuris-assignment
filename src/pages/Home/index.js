@@ -12,7 +12,8 @@ export default class Home extends Component {
             <Layout>
                 <Row>
                     <Col>
-                        <h5>Welcome To Omnifgjk</h5>
+                        <h5>Welcome To Omnicuris</h5>
+                        <a href="/courses" >Go To Courses</a>
                     </Col>
                 </Row>
             </Layout>

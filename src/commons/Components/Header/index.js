@@ -18,7 +18,7 @@ export default function Header() {
 
     return (
         <header className='header'>
-            <Navbar color="dark" light expand="md" className="fixed-top">
+            <Navbar color="dark" dark expand="md" className="fixed-top">
                 <NavbarBrand href="/">Omnicuris</NavbarBrand>
                 <NavbarToggler onClick={toggle} />
                 <Collapse isOpen={isOpen} navbar>

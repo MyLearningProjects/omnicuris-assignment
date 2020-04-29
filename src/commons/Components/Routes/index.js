@@ -17,7 +17,6 @@ import PageLoader       from "../../Components/PageLoader";
 
 class Routes extends Component {
     render() {
-        console.log(ROUTE_PATHS)
         return (
             <Suspense fallback={<PageLoader />}>
                 <Switch>
