@@ -12,3 +12,7 @@ to build devlopment version (file used is .env.dev)
 
 ## `npm run build:prod`
 to run production build. also the .env.dev file variable should be available in .env.production .
+
+
+## `How to run locally`
+clone the repo.  run `npm install` then `npm start`
