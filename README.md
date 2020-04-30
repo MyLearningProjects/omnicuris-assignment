@@ -7,8 +7,8 @@ In the project directory, you can run:
 ## `npm start`
 to start the devlopment server. also config files are in .env.dev anything related to env should be added/modified here.
 
-## 'npm build'
+## `npm build`
 to build devlopment version (file used is .env.dev)
 
-## 'npm run build:prod'
+## `npm run build:prod`
 to run production build. also the .env.dev file variable should be available in .env.production .
